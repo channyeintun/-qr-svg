@@ -7,4 +7,6 @@
 ### Import Symbol
 ```typescript
 import * as mod from "@qr/svg";
-```
+```  
+
+![QR Code](./example.png)
