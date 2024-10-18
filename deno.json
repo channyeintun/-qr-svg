@@ -1,0 +1,13 @@
+{
+  "name": "@qr/svg",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "dev": "deno run --watch qr.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "qr.js": "npm:qr.js@^0.0.0",
+    "svgpath": "npm:svgpath@2.6.0"
+  }
+}
